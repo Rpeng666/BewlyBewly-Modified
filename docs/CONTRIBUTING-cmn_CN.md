@@ -119,7 +119,7 @@ pnpm dev-firefox
 
 2. 在浏览器输入 `about:addons` 之后点击 `Extensions` 然后 `Debug Add-ons`
 
-<img width="655" alt="image" src="https://github.com/hakadao/BewlyBewly/assets/33394391/7c49e4ca-2a87-4c56-bc00-3259d6eba128">
+<img width="655" alt="image" src="https://github.com/Rpeng666/BewlyBewly-Modified/assets/33394391/7c49e4ca-2a87-4c56-bc00-3259d6eba128">
 
 3. 在浏览器中加载生成的 `extension-firefox/` 文件夹
 

@@ -1,41 +1,12 @@
-# BewlyBewly (Modified)
+# BewlyBewly
 
-[English](README-en.md) | [官话 - 简体中文](README.md) | [官話 - 繁體中文](README-cmn_TW.md) | 廣東話
+[English](README.md) | [官话 - 简体中文](README-cmn_CN.md) | [官話 - 繁體中文](README-cmn_TW.md) | 廣東話
 
 <p align="center" style="margin-bottom: 0px !important;">
 <img width="300" alt="BewlyBewly icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/logos/bewlybewly-vtuber-logo.png"><br/>
 </p>
 
 <p align="center">係咁以執吓你嘅 Bilibili 主頁。</p>
-
-> [!IMPORTANT]
-> **致謝與聲明**
->
-> 本專案修改自 [BewlyBewly](https://github.com/BewlyBewly/BewlyBewly)。原專案已經歸檔，感謝原作者嘅傑出工作。
->
-> **本專案僅供個人學習同研究使用，後果自負。**
-
-## 🛡️ 拯救我嘅注意力 (Fuck Recommendation)
-
-> **你嘅注意力正在被掠奪**
->
-> 喺今時今日嘅互聯網環境下，各大平台都出盡法寶爭奪你嘅注意力。推薦演算法、無限下拉、紅點通知……呢啲精心設計嘅機制只有一個目的：令你喺平台度留耐啲，從而賣出更多嘅廣告。
->
-> 如果你發現自己經常無意識咁刷片，浪費咗大量時間，**請唔好怪責自己**。呢個唔係你嘅自制力差，而係你對抗緊一個由頂尖心理學家、數據科學家同工程師組成嘅龐大團隊。佢哋嘅目標就係攻破你嘅心理防線，利用多巴胺迴路令你上癮，而你只係一個手無寸鐵嘅用戶。
-
-為咗幫你奪回注意力嘅控制權，我哋喺原版 BewlyBewly 嘅基礎上增加咗 **Fuck Recommendation (拯救我嘅注意力)** 模式。
-
-開啟此模式後，你可以：
-- **簡潔模式**：隱藏首頁嘅所有推薦影片，還你一個清爽嘅開始。
-- **隱藏評論區**：眼不見為淨，避免陷入無意義嘅爭論同情緒消耗。
-- **僅顯示關注**：只睇你主動選擇關注嘅內容，拒絕演算法投餵嘅「垃圾食品」。
-- **隱藏影片推薦**：播放頁右邊嘅推薦列表？消失啦，專注於當前嘅影片。
-- **隱藏結束推薦**：影片播完咗？咁就完啦，唔好再引誘我點開下一個。
-
-我哋希望透過呢啲功能，幫助你從演算法嘅裹挾中掙脫出嚟，重新做返自己嘅主人。
-
-<!-- ![min1](https://github.com/hakadao/BewlyBewly/assets/33394391/951f9e2a-d0e1-452c-83a9-dc6d85c4d441)
-![min2](https://github.com/hakadao/BewlyBewly/assets/33394391/3e75dd20-f60b-4645-b434-23a24c72959c) -->
 
 ## 👋 介紹
 

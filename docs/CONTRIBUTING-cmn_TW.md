@@ -118,7 +118,7 @@ pnpm dev-firefox
 
 2. 在瀏覽器中輸入 `about:addons`，點擊 `Extensions` 然後 `Debug Add-ons`
 
-<img width="655" alt="image" src="https://github.com/hakadao/BewlyBewly/assets/33394391/7c49e4ca-2a87-4c56-bc00-3259d6eba128">
+<img width="655" alt="image" src="https://github.com/Rpeng666/BewlyBewly-Modified/assets/33394391/7c49e4ca-2a87-4c56-bc00-3259d6eba128">
 
 3. 然後在瀏覽器中使用 `extension-firefox/` 資料夾載入此擴充功能。
 

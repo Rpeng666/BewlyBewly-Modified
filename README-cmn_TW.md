@@ -34,9 +34,6 @@
 
 我們希望透過這些功能，幫助你從演算法的裹挾中掙脫出來，重新做回自己的主人。
 
-<!-- ![min1](https://github.com/hakadao/BewlyBewly/assets/33394391/951f9e2a-d0e1-452c-83a9-dc6d85c4d441)
-![min2](https://github.com/hakadao/BewlyBewly/assets/33394391/3e75dd20-f60b-4645-b434-23a24c72959c) -->
-
 ## 👋 介紹
 
 > [!IMPORTANT]
@@ -78,17 +75,17 @@ BewlyBewly 是一個針對 BiliBili 的瀏覽器擴充功能，旨在透過重�
 > [!WARNING]
 > 使用 Firefox 瀏覽器時，請記得啓用下圖所示的所有權限，以便正常使用 BewlyBewly
 
-<br/> <img width="655" alt="enable all bewlybewly permissions on firefox" src="https://github.com/hakadao/BewlyBewly/assets/33394391/9566aed8-040a-4435-a2ec-c61117f8e429">
+<br/> <img width="655" alt="enable all bewlybewly permissions on firefox" src="https://github.com/Rpeng666/BewlyBewly-Modified/assets/33394391/9566aed8-040a-4435-a2ec-c61117f8e429">
 
 ### 離線安裝
 
-[CI](https://github.com/hakadao/BewlyBewly/actions)：自動建置最新的程式碼
+[CI](https://github.com/Rpeng666/BewlyBewly-Modified/actions)：自動建置最新的程式碼
 
-[Releases](https://github.com/hakadao/BewlyBewly/releases)：穩定版本
+[Releases](https://github.com/Rpeng666/BewlyBewly-Modified/releases)：穩定版本
 
 #### Edge 和 Chrome (推薦)
 
-> 確保您已下載 [extension.zip](https://github.com/hakadao/BewlyBewly/releases)。
+> 確保您已下載 [extension.zip](https://github.com/Rpeng666/BewlyBewly-Modified/releases)。
 
 在 Edge 中打開 `edge://extensions` 頁面或在 Chrome 中打開 `chrome://extensions` 頁面，只需將下載的 `extension.zip` 檔案拖放到瀏覽器中，即可完成安裝。
 
@@ -97,7 +94,7 @@ BewlyBewly 是一個針對 BiliBili 的瀏覽器擴充功能，旨在透過重�
 
 #### Edge
 
-> 確保您已下載 [extension.zip](https://github.com/hakadao/BewlyBewly/releases) 並且解壓縮此檔案。
+> 確保您已下載 [extension.zip](https://github.com/Rpeng666/BewlyBewly-Modified/releases) 並且解壓縮此檔案。
 
 1. 在地址欄中輸入 `edge://extensions/`，然後按下 Enter 鍵
 2. 打開`開發者模式`，然後按下`載入解壓縮` <br/> <img width="655" alt="image" src="https://user-images.githubusercontent.com/33394391/232246901-e3544c16-bde2-480d-b770-ca5242793963.png">
@@ -105,7 +102,7 @@ BewlyBewly 是一個針對 BiliBili 的瀏覽器擴充功能，旨在透過重�
 
 #### Chrome
 >
-> 確保您已下載 [extension.zip](https://github.com/hakadao/BewlyBewly/releases) 並且解壓縮此檔案。
+> 確保您已下載 [extension.zip](https://github.com/Rpeng666/BewlyBewly-Modified/releases) 並且解壓縮此檔案。
 
 1. 在地址欄中輸入 `chrome://extensions/`，然後按下 Enter 鍵
 2. 打開`開發者模式`，然後按下`載入解壓縮` <br/> <img width="655" alt="Snipaste_2022-03-27_18-17-04" src="https://user-images.githubusercontent.com/33394391/160276882-13da0484-92c1-47dd-add8-7655c5c2bf1c.png">
@@ -116,10 +113,6 @@ BewlyBewly 是一個針對 BiliBili 的瀏覽器擴充功能，旨在透過重�
 ## 🤝 貢獻與建置專案
 
 詳情 [CONTRIBUTING.md](docs/CONTRIBUTING-cmn_TW.md)
-
-### 貢獻者
-
-[![Contributors](https://contrib.rocks/image?repo=hakadao/BewlyBewly)](https://github.com/BewlyBewly/BewlyBewly/graphs/contributors)
 
 ## ❤️ 鳴謝
 
