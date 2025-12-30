@@ -1,5 +1,4 @@
-import { presetAttributify, presetIcons, presetTypography, presetUno, transformerDirectives } from 'unocss'
-import { defineConfig } from 'unocss/vite'
+import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno, transformerDirectives } from 'unocss'
 
 const remRE = /(-?[.\d]+)rem/g
 
@@ -7,7 +6,7 @@ export default defineConfig({
   content: {
     pipeline: {
       include: [
-        '**/*.{js,ts}',
+        // '**/*.{js,ts}',
         /\.(vue|svelte|[jt]sx|mdx?|astro|elm|php|phtml|html)($|\?)/,
       ],
     },

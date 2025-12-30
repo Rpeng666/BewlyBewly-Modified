@@ -1,5 +1,5 @@
 import '~/styles'
-import 'uno.css'
+import 'virtual:uno.css'
 
 import { createApp } from 'vue'
 
@@ -264,7 +264,7 @@ function injectApp() {
   const resetStyleEl = document.createElement('style')
   resetStyleEl.textContent = `${RESET_BEWLY_CSS}`
   styleEl.setAttribute('rel', 'stylesheet')
-  styleEl.setAttribute('href', browser.runtime.getURL('dist/contentScripts/style.css'))
+  styleEl.setAttribute('href', browser.runtime.getURL('dist/contentScripts/bewly-bewly-modified.css'))
   shadowDOM.appendChild(resetStyleEl)
   shadowDOM.appendChild(styleEl)
   shadowDOM.appendChild(root)
