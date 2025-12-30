@@ -34,6 +34,10 @@ After enabling this mode, you can:
 
 We hope that through these features, we can help you break free from the coercion of algorithms and become the master of yourself again.
 
+## ⚡ Playback Enhancements
+
+- **Extended Playback Speeds**: Added 3.0x, 4.0x, and 5.0x playback speed options to the player, helping you breeze through long videos.
+
 ## 👋 Introduction
 
 > [!IMPORTANT]
