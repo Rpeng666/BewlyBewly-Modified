@@ -696,7 +696,7 @@ defineExpose({
                     <div v-else-if="settings.topBarIconBadges === 'dot'" class="unread-dot" />
                   </template>
 
-                  <ALink :href="settings.openNotificationsPageAsDrawer ? undefined : 'https://message.bilibili.com'"
+                  <ALink :href="settings.openNotificationsPageAsDrawer ? 'undefined' : 'https://message.bilibili.com'"
                     :class="{ 'white-icon': forceWhiteIcon }" :title="$t('topbar.notifications')" type="topBar"
                     :custom-click-event="settings.openNotificationsPageAsDrawer"
                     @click="drawerVisible.notifications = true">
