@@ -39,6 +39,7 @@ common:
     index: Index
     title: Title
     name: Name
+    keyword: Keyword
     remark: Remark
     operations: Operations
 
@@ -62,6 +63,7 @@ settings:
   menu_appearance: Appearance
   menu_bewly_pages: BewlyBewly Pages
   menu_search_page: Search Page
+  menu_video_page: Video Page
   menu_home: Home
   menu_save_my_attention: Fuck Recommendation
   menu_simple_mode: Simple Mode
@@ -126,8 +128,6 @@ settings:
   select_language_opt:
     english: English
     mandarin_cn: Mandarin - Simplified Chinese
-    mandarin_tw: Mandarin - Traditional Chinese
-    jyut: Cantonese
   customize_font: Customize font
   customize_font_opt:
     default: Bilibili Default
@@ -276,6 +276,36 @@ settings:
     Double-click the column to edit the current column.
   filter_by_user_table:
     username_or_mid: Username / MID
+
+  filter_by_bvid: Filter by BV ID
+  filter_by_bvid_desc: |-
+    Filtered out the videos that match the BV ID you set.
+    <br/>
+    In the table below, you can press the <kbd>Enter</kbd> key to add a new filter or confirm a modification.
+    Press the <kbd>Esc</kbd> key to cancel the modification.
+    Double-click the column to edit the current column.
+
+  group_comment_filter: Comment Filter
+  enable_filter_by_comment_user: Enable Filter by Comment User
+  filter_by_comment_user_desc: |-
+    Filter out comments posted by the username (full name, case-insensitive) or MID you set.
+    <br/>
+    In the table below, you can press the <kbd>Enter</kbd> key to add a new filter or confirm a modification.
+    Press the <kbd>Esc</kbd> key to cancel the modification.
+    Double-click the column to edit the current column.
+  enable_filter_by_comment_keyword: Enable Filter by Comment Keyword
+  filter_by_comment_keyword_desc: |-
+    Filter out comments containing the keywords you set (case-insensitive).
+    Alternatively, use regex, such as <code>/abc&#124;\d+/</code>, wrapped in <code>/</code>.
+    <br/>
+    In the table below, you can press the <kbd>Enter</kbd> key to add a new filter or confirm a modification.
+    Press the <kbd>Esc</kbd> key to cancel the modification.
+    Double-click the column to edit the current column.
+  enable_filter_by_comment_level: Enable Filter by Comment Level
+  filter_by_comment_level_desc: Filter out comments from users with a level lower than the one you set.
+  filter_level_below: Filter level below
+  enable_filter_by_comment_type: Enable Filter by Comment Type
+  filter_by_comment_type_desc: Filter out selected comment types.
 
   following_tab_show_livestreaming_videos: Show Live-streaming videos in the "Following" tab
 

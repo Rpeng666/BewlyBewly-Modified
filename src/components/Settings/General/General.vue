@@ -18,14 +18,6 @@ const langOptions = computed(() => {
       label: t('settings.select_language_opt.mandarin_cn'),
       value: 'cmn-CN',
     },
-    {
-      label: t('settings.select_language_opt.mandarin_tw'),
-      value: 'cmn-TW',
-    },
-    {
-      label: t('settings.select_language_opt.jyut'),
-      value: 'jyut',
-    },
   ]
 })
 

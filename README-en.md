@@ -1,40 +1,65 @@
-# BewlyBewly (Modified)
+PewlyPewly
 
-English | [官话 - 简体中文](README.md) | [官話 - 繁體中文](README-cmn_TW.md) | [廣東話](README-jyut.md)
+[English] | 中文（简体）
 
-<p align="center" style="margin-bottom: 0px !important;">
-<img width="300" alt="BewlyBewly icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/logos/bewlybewly-vtuber-logo.png"><br/>
-</p>
+<div align="center"> <img src="./assets/Gemini_Generated_Image_bu4j01bu4j01bu4j.png" width="400"> </div> <h1 align="center">Make a few tiny changes to your Bilibili homepage.</h1>
 
-<p align="center">Just make a few small changes to your Bilibili homepage.</p>
+[!IMPORTANT]
+Acknowledgement & Disclaimer
 
-> [!IMPORTANT]
-> **Acknowledgements & Disclaimer**
->
-> This project is a modification of [BewlyBewly](https://github.com/BewlyBewly/BewlyBewly). The original project has been archived, and we thank the original author for their outstanding work.
->
-> **This project is for personal learning and research purposes only. Use at your own risk.**
+This project is a modified version of
+BewlyBewly
+.
 
-## 🛡️ Fuck Recommendation (Save My Attention)
+The original project has been archived.
+Sincere thanks to the original author for their excellent work.
 
-> **Your attention is being plundered.**
->
-> In today's internet environment, major platforms are doing their best to compete for your attention. Recommendation algorithms, infinite scrolling, red dot notifications... these carefully designed mechanisms have only one purpose: to keep you on the platform longer and sell more ads.
->
-> If you find yourself mindlessly scrolling through videos and wasting a lot of time, **please don't blame yourself**. It's not that you lack self-control, but that you are fighting against a huge team of top psychologists, data scientists, and engineers. Their goal is to break through your psychological defenses and use dopamine loops to get you addicted, while you are just an unarmed user.
+This project is intended for personal learning and research purposes only.
+Use at your own risk.
 
-To help you regain control of your attention, we have added the **Fuck Recommendation** mode based on the original BewlyBewly.
+🛡️ Reclaim My Attention (Fuck Recommendation)
 
-After enabling this mode, you can:
-- **Simple Mode**: Hide all recommended videos on the homepage, giving you a fresh start.
-- **Hide Comments**: Out of sight, out of mind. Avoid getting involved in meaningless arguments and emotional drain.
-- **Only Show Followed**: Only see content you actively choose to follow, refusing "junk food" fed by algorithms.
-- **Hide Video Recommendations**: The recommendation list on the right side of the playback page? Make it disappear and focus on the current video.
-- **Hide Ending Recommendations**: Video finished? Then it ends. Don't tempt me to click on the next one.
-- **Disable Preview Images**: Hide the video player preview image to reduce visual distraction.
+Your attention is being exploited
 
-We hope that through these features, we can help you break free from the coercion of algorithms and become the master of yourself again.
+In today’s internet ecosystem, major platforms are engaged in an all-out war for your attention.
+Recommendation algorithms, infinite scrolling, red-dot notifications—these mechanisms are carefully engineered with a single goal:
 
-## ⚡ Playback Enhancements
+Keep you staying longer, so more ads can be sold.
 
-- **Extended Playback Speeds**: Added 3.0x, 4.0x, and 5.0x playback speed options to the player, helping you breeze through long videos.
+If you often find yourself mindlessly scrolling through videos and wasting hours of time, do not blame yourself.
+
+This is not a lack of self-control.
+
+You are fighting against an entire industry—teams of top psychologists, data scientists, and engineers—whose sole purpose is to break your mental defenses, hijack your dopamine feedback loop, and keep you addicted.
+
+You are just one unarmed user.
+
+To help you take back control of your attention, we introduce Fuck Recommendation (Reclaim My Attention) mode, built on top of the original BewlyBewly.
+
+When this mode is enabled, you can:
+
+Minimal Home Mode
+Hide all recommended videos on the homepage and start with a clean slate.
+
+Hide Comments Section
+Out of sight, out of mind. Avoid meaningless arguments and emotional drain.
+
+Show Following Only
+Watch only the content you explicitly chose to follow. No more algorithmic junk food.
+
+Hide Side Recommendations
+Remove the recommended video list on the right side of the player and focus on the current video.
+
+Disable End-Screen Recommendations
+The video ends—and so does your watching. No more temptation to click the next one.
+
+Disable Video Preview Thumbnails
+Hide preview thumbnails in the video player to reduce visual distraction.
+
+Our goal is simple:
+Free you from algorithmic manipulation and help you become the owner of your own attention again.
+
+⚡ Playback Enhancements
+
+Extended Playback Speed Options
+Adds 3.0x, 4.0x, and 5.0x speed options to the video player, making it easier to skim long videos efficiently.

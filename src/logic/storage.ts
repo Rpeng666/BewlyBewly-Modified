@@ -104,6 +104,18 @@ export interface Settings {
   filterByTitle: { keyword: string, remark: string }[]
   enableFilterByUser: boolean
   filterByUser: { keyword: string, remark: string }[]
+  enableFilterByBvid: boolean
+  filterByBvid: { keyword: string, remark: string }[]
+
+  // comment filter setting
+  enableFilterByCommentUser: boolean
+  filterByCommentUser: { keyword: string, remark: string }[]
+  enableFilterByCommentKeyword: boolean
+  filterByCommentKeyword: { keyword: string, remark: string }[]
+  enableFilterByCommentLevel: boolean
+  filterByCommentLevel: number
+  enableFilterByCommentType: boolean
+  filterByCommentType: string[]
 
   followingTabShowLivestreamingVideos: boolean
 
@@ -212,8 +224,20 @@ export const originalSettings: Settings = {
   filterByDuration: 3600,
   enableFilterByTitle: false,
   filterByTitle: [],
+  enableFilterByBvid: false,
+  filterByBvid: [],
   enableFilterByUser: false,
   filterByUser: [],
+
+  // comment filter setting
+  enableFilterByCommentUser: false,
+  filterByCommentUser: [],
+  enableFilterByCommentKeyword: false,
+  filterByCommentKeyword: [],
+  enableFilterByCommentLevel: false,
+  filterByCommentLevel: 0,
+  enableFilterByCommentType: false,
+  filterByCommentType: [],
 
   followingTabShowLivestreamingVideos: false,
 

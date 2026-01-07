@@ -10,6 +10,7 @@ export enum FilterType {
   duration,
   title,
   user,
+  bvid,
 }
 
 type FuncMap = { [key in FilterType]: {
@@ -113,6 +114,19 @@ export function useFilter(isFollowedKeyPath: string[], filterOpt: FilterType[], 
   }
   // #endregion
 
+  // #region filter by bvid
+  const filterByBvidStringValues: string[] = []
+
+  settings.value.filterByBvid.forEach((item) => {
+    filterByBvidStringValues.push(`${item.keyword}`.toUpperCase())
+  })
+
+  function compareBvid(item: any, keyPath: string[], _filterValue: string) {
+    const value = get(item, keyPath)
+    return !filterByBvidStringValues.includes(`${value}`.toUpperCase())
+  }
+  // #endregion
+
   const funcMap: FuncMap = {
     [FilterType.filterOutVerticalVideos]: {
       func: filterOutVerticalVideos,
@@ -144,6 +158,11 @@ export function useFilter(isFollowedKeyPath: string[], filterOpt: FilterType[], 
       enabledKey: 'enableFilterByUser',
       valueKey: '',
     },
+    [FilterType.bvid]: {
+      func: compareBvid,
+      enabledKey: 'enableFilterByBvid',
+      valueKey: '',
+    },
   }
 
   const filter = ref<Function | null>(null)
@@ -154,12 +173,14 @@ export function useFilter(isFollowedKeyPath: string[], filterOpt: FilterType[], 
     settings.value.enableFilterByViewCount,
     settings.value.enableFilterByTitle,
     settings.value.enableFilterByUser,
+    settings.value.enableFilterByBvid,
     settings.value.filterByDuration,
     settings.value.filterByViewCount,
     settings.value.filterByTitle,
     settings.value.filterByUser,
-  ], ([filterOutVerticalVideos, durationFilter, viewCountFilter, titleFilter, userFilter]) => {
-    if (!filterOutVerticalVideos && !durationFilter && !viewCountFilter && !titleFilter && !userFilter) {
+    settings.value.filterByBvid,
+  ], ([filterOutVerticalVideos, durationFilter, viewCountFilter, titleFilter, userFilter, bvidFilter]) => {
+    if (!filterOutVerticalVideos && !durationFilter && !viewCountFilter && !titleFilter && !userFilter && !bvidFilter) {
       filter.value = null
       return
     }

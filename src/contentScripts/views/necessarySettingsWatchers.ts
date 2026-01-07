@@ -5,11 +5,13 @@ import { accessKey, settings } from '~/logic'
 import { getUserID, injectCSS } from '~/utils/main'
 
 import { setupExtendedPlaybackRates } from './extendedPlaybackRates'
+import { setupCommentFilter } from './Video/commentFilter'
 
 export function setupNecessarySettingsWatchers() {
   const { locale } = useI18n()
 
   setupExtendedPlaybackRates()
+  setupCommentFilter()
 
   watch(
     () => settings.value.language,

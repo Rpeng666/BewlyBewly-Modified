@@ -10,6 +10,7 @@ import { getTVLoginQRCode, pollTVLoginQRCode, revokeAccessKey } from '~/utils/au
 import SettingsItem from '../../components/SettingsItem.vue'
 import SettingsItemGroup from '../../components/SettingsItemGroup.vue'
 import SearchPage from '../SearchPage/SearchPage.vue'
+import FilterByBvidTable from './components/FilterByBvidTable.vue'
 import FilterByTitleTable from './components/FilterByTitleTable.vue'
 import FilterByUserTable from './components/FilterByUserTable.vue'
 
@@ -95,8 +96,8 @@ function handleCloseQRCodeDialog() {
   showQRCodeDialog.value = false
 }
 
-function handleExport(filterType: 'title' | 'user') {
-  const filters = filterType === 'title' ? settings.value.filterByTitle : settings.value.filterByUser
+function handleExport(filterType: 'title' | 'user' | 'bvid') {
+  const filters = filterType === 'title' ? settings.value.filterByTitle : filterType === 'user' ? settings.value.filterByUser : settings.value.filterByBvid
   const jsonString = JSON.stringify(filters, null, 2) // Pretty print JSON
   const blob = new Blob([jsonString], { type: 'application/json' })
   const url = URL.createObjectURL(blob)
@@ -107,7 +108,7 @@ function handleExport(filterType: 'title' | 'user') {
   URL.revokeObjectURL(url)
 }
 
-function handleImport(filterType: 'title' | 'user') {
+function handleImport(filterType: 'title' | 'user' | 'bvid') {
   const input = document.createElement('input')
   input.type = 'file'
   input.accept = '.json'
@@ -127,8 +128,11 @@ function handleImport(filterType: 'title' | 'user') {
       if (filterType === 'title') {
         settings.value.filterByTitle = importedFilters
       }
-      else {
+      else if (filterType === 'user') {
         settings.value.filterByUser = importedFilters
+      }
+      else {
+        settings.value.filterByBvid = importedFilters
       }
       // toast.success(`${filterType} filters imported successfully`)
     }
@@ -158,6 +162,14 @@ function handleExportFilterByUser() {
 
 function handleImportFilterByUser() {
   handleImport('user')
+}
+
+function handleExportFilterByBvid() {
+  handleExport('bvid')
+}
+
+function handleImportFilterByBvid() {
+  handleImport('bvid')
 }
 
 function resetHomeTabs() {
@@ -361,6 +373,33 @@ function handleToggleHomeTab(tab: any) {
             </div>
 
             <FilterByUserTable />
+          </template>
+        </SettingsItem>
+        <SettingsItem
+          class="unrestricted-width-settings-item"
+          :title="$t('settings.filter_by_bvid')"
+          border="lg:none b-1 $bew-border-color"
+        >
+          <Radio v-model="settings.enableFilterByBvid" />
+          <template v-if="settings.enableFilterByBvid" #bottom>
+            <div text="$bew-text-2 sm" mb-2 v-html="$t('settings.filter_by_bvid_desc')" />
+            <div flex="~ gap-2" mb-2>
+              <Button type="secondary" size="small" @click="handleImportFilterByBvid">
+                <template #left>
+                  <div i-uil:import />
+                </template>
+                <input type="file" accept=".json" hidden>
+                {{ $t('common.operation.import') }}
+              </Button>
+              <Button type="secondary" size="small" @click="handleExportFilterByBvid">
+                <template #left>
+                  <div i-uil:export />
+                </template>
+                {{ $t('common.operation.export') }}
+              </Button>
+            </div>
+
+            <FilterByBvidTable />
           </template>
         </SettingsItem>
       </div>

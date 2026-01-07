@@ -39,6 +39,7 @@ common:
     index: 索引
     title: 标题
     name: 名称
+    keyword: 关键词
     remark: 备注
     operations: 操作
 
@@ -62,6 +63,7 @@ settings:
   menu_appearance: 外观
   menu_bewly_pages: BewlyBewly 页面
   menu_search_page: 搜索页
+  menu_video_page: 视频页
   menu_home: 首页
   menu_save_my_attention: 拯救我的注意力
   menu_simple_mode: 简洁模式
@@ -124,8 +126,6 @@ settings:
   select_language_opt:
     english: 英文
     mandarin_cn: 官话 - 简体中文
-    mandarin_tw: 官話 - 繁體中文
-    jyut: 廣東話
   customize_font: 自定义字体
   customize_font_opt:
     default: Bilibili 默认
@@ -271,6 +271,34 @@ settings:
     双击列以编辑当前列。
   filter_by_user_table:
     username_or_mid: 用户名 / MID
+  filter_by_bvid: 按 BV 号筛选
+  filter_by_bvid_desc: >
+    筛选掉包含您设置的 BV 号的视频（不区分大小写）。
+    <br/>
+    在下表中，您可以按 <kbd>Enter</kbd> 键添加新的筛选条件或确认修改。
+    按 <kbd>Esc</kbd> 键取消修改。
+    双击列以编辑当前列。
+
+  group_comment_filter: 评论过滤
+  enable_filter_by_comment_user: 启用按用户过滤评论
+  filter_by_comment_user_desc: >
+    筛选掉包含您设置的用户名（全名，不区分大小写）或 MID 发布的评论。
+    <br/>
+    在下表中，您可以按 <kbd>Enter</kbd> 键添加新的筛选条件或确认修改。
+    按 <kbd>Esc</kbd> 键取消修改。
+    双击列以编辑当前列。
+  enable_filter_by_comment_keyword: 启用按关键词过滤评论
+  filter_by_comment_keyword_desc: >
+    筛选掉包含您设置的关键词的评论（不区分大小写），也可以使用正则表达式，如 <code>/abc&#124;\d+/</code>，用 <code>/</code> 包裹。
+    <br/>
+    在下表中，您可以按 <kbd>Enter</kbd> 键添加新的筛选条件或确认修改。
+    按 <kbd>Esc</kbd> 键取消修改。
+    双击列以编辑当前列。
+  enable_filter_by_comment_level: 启用按等级过滤评论
+  filter_by_comment_level_desc: 筛选掉等级低于您设置的用户的评论。
+  filter_level_below: 过滤等级低于
+  enable_filter_by_comment_type: 启用按类型过滤评论
+  filter_by_comment_type_desc: 筛选掉选中的评论类型。
 
   following_tab_show_livestreaming_videos: 在 “正在关注” 中显示直播视频
 

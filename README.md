@@ -1,12 +1,16 @@
-# BewlyBewly (Modified)
+# PewlyPewly
 
 [English](README-en.md) | 官话 - 简体中文
 
-<p align="center" style="margin-bottom: 0px !important;">
-<img width="300" alt="BewlyBewly icon" src="https://cdn.jsdelivr.net/gh/BewlyBewly/Imgs/logos/bewlybewly-vtuber-logo.png"><br/>
-</p>
+<div align="center">
+    <img src="./assets/Gemini_Generated_Image_bu4j01bu4j01bu4j.png" width="400">
+  </a>
+</div>
 
-<p align="center">只需对您的 Bilibili 主页进行一些小更改即可。</p>
+<h1 align="center">只需对您的 Bilibili 主页进行亿些小更改即可。</h1>
+
+<div align="center">
+
 
 > [!IMPORTANT]
 > **致谢与声明**
